@@ -29,8 +29,9 @@ a {
 }
 
 .container {
-  max-width: 1128px;
+  width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .hidden {
@@ -62,7 +63,7 @@ a {
 }
 
 .header {
-  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-wrapper {
@@ -72,7 +73,11 @@ a {
 
 .header-nav {
   display: flex;
-  column-gap: 76px;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 76px;
 }
 
 .header-menu {
@@ -81,6 +86,7 @@ a {
 }
 
 .header-menu-link {
+  padding: 24px 0;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
