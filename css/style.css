@@ -208,16 +208,11 @@ a {
 
 .member {
   background-color: #ffffff;
-  padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
 }
 
 .member-wrapper {
   padding: 32px 0;
-}
-
-.member-img {
-  margin-bottom: 32px;
 }
 
 .member-title {
@@ -257,12 +252,7 @@ a {
   gap: 48px 24px;
 }
 
-.portfolio-img {
-  margin-bottom: 32px;
-}
-
 .portfolio-item {
-  padding-bottom: 32px;
   width: calc((100% - 48px) / 3);
 }
 
@@ -279,7 +269,6 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 
 .works-text {
@@ -287,7 +276,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-left: 16px;
 }
 
 .footer {
